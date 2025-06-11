@@ -1,0 +1,92 @@
+body{
+    background-color: #15202B;
+}
+.services{
+    background-image: url('/b73/images/services.jpg');
+    height: 80vh;
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: aquamarine;
+    position: relative;
+    background-color: #15202B;
+}
+
+@media only screen and (max-width: 600px){
+    .services{
+        flex-direction: column;
+        justify-content: center;
+        justify-content: space-around;
+    }
+}
+
+/*controls the three buttons*/
+.services_buttons{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+}
+
+.display_view ul{
+    height: 150px;
+    text-align: center;
+    list-style: none;
+    color: rgb(255, 255, 255);
+}
+
+.display_secretarial{
+    background-image: url('/b73/images/theshop.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    padding: 1px;
+    border-radius: 15px 50px;
+    box-shadow: 10px 10px 5px black;
+}
+
+.display_lessons{
+    background-image: url('/b73/images/theshop.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    padding: 1px;
+    border-radius: 15px 50px;
+    box-shadow: 10px 10px 5px black;
+}
+
+.display_empower{
+    background-image: url('/b73/images/theshop.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 20px;
+    padding: 1px;
+    border-radius: 15px 50px;
+    box-shadow: 10px 10px 5px black;
+}
+
+.display_Btn{
+	color: black;
+	font-size: 2vh;
+    color: white;
+    background: #0D1721;
+	border-radius: 15px;
+    padding: 10px;
+    transition: background 1.5s;
+}
+.display_Btn:hover{
+	transform: translateY(-6px);
+    color:#0D1721;
+    background-color: #b6b4b4;
+}
+
+@media only screen and (max-width: 600px){
+	.display_Btn{
+    	font-size: 3vw;
+    }
+}
+
+/*end of button control*/
+

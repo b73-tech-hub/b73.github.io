@@ -1,0 +1,36 @@
+
+.about{
+    display:flex;
+}
+
+.left_content{
+    flex:10%;
+    background-color: #15202B;
+    color: #F2F2F2;
+    padding: 5px 20px;
+    text-align: center;  
+}
+
+.right_content{
+    flex:10%;
+    background-color: #15202B;
+    color: #F2F2F2;
+    padding: 5px 20px;
+    text-align: center;
+}
+
+
+.middle_content{
+    background-color: #0D1721;
+    padding: 2px 20px;
+    text-align: justify;
+    flex: 60%;
+    color: #F2F2F2;
+    padding: 5px 20px;
+}
+
+@media only screen and (max-width: 600px){
+    .about{
+        flex-direction: column;
+    }
+}
